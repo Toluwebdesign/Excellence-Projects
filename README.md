@@ -5,18 +5,20 @@ A collection of front-end web development projects by Olasupo Toluwani Excellenc
 - **Balance Sheet (FreeCodeCamp Project)** 
 - **Cafe Menu (FreeCodeCamp Project)**
 - **Cat Painting (FreeCodeCamp Project)**
-- **City Skyline**
-- **Colored Markers**
-- **CatPhotoApp**
+- **Colored Markers (FreeCodeCamp Project)**
+- **CatPhotoApp (FreeCodeCamp Project)**
 - **University Website**
-- **Nutrition Label**
-- **Registration form**
-- **Rothko Painting**
-- **Survey form**
-- **Technical Documentation Page**
-- **Tribute Page**
+  *Inspired by a YouTube tutorial, recreated and customized as part of my front-end learning journey.*
+- **Nutrition Label (FreeCodeCamp Project)**
+- **Registration form (FreeCodeCamp Project)**
+- **Rothko Painting (FreeCodeCamp Project)**
+- **Survey form (FreeCodeCamp Project)**
+- **Technical Documentation Page (FreeCodeCamp Project)**
+- **Tribute Page (FreeCodeCamp Project)**
 - **House Website**
+  *Inspired by a YouTube tutorial, recreated and customized as part of my front-end learning journey.*
 - **Website**
+  *Inspired by a YouTube tutorial, recreated and customized as part of my front-end learning journey.*
 
 ## 🛠️ Technologies
 - HTML  
