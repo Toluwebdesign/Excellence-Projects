@@ -1,0 +1,61 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.74)), url(img.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 90vh;
+    float: left;
+    text-align: center;
+    margin-left: 100px;
+    width: 90%;
+    font-size: 25px;
+}
+
+h1{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Tahoma;
+}
+
+p{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.label{
+    display: block;
+}
+
+legend{
+    display: inline-block;
+}
+
+form{
+    margin: 5px auto;
+    max-width: 500px;
+    min-width: 300px;
+    padding: 1em;
+    background-color: #070714;
+
+}
+
+input, textarea, select{
+    margin-top: 15px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    width: 90%;
+    min-height: 2em;
+}
+
+input, textarea{
+    background-color: #fff;
+    border: 2px solid #0a0a23;
+    color: #000;
+}
+
+textarea{
+    height:100px;
+}

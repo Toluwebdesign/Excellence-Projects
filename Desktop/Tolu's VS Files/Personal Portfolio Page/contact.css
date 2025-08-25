@@ -1,0 +1,94 @@
+*{
+    background-color: #1b1227;
+    color: #fff;
+}
+
+input::placeholder{
+    color: aqua;
+}
+
+textarea::placeholder{
+    color: aqua;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    background-color: teal;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+form{
+    max-width: 500px;
+    min-width: 300px;
+    margin-left: 400px;
+}
+
+button{
+    margin-top: 20px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: aqua;
+    transition: 1s;
+    color: #000;
+}
+
+input, textarea{
+    width: 500px;
+}
+
+.logo {
+    font-size: 2em;
+    color: #fff;
+    cursor: default;
+    padding-left: 50px;
+}
+.logo span {
+    color: #7d2ae8;
+}
+
+p{
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+header{
+    display: flex;
+}
+
+.navigation{
+    margin-left: 400px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    font-size: 1.1em;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #fff;
+    transition: 2s;
+    margin-top: 30px;
+}
+
+.navigation a:hover{
+    color:#7d2ae8;
+}
