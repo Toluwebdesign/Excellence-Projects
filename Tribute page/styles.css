@@ -1,0 +1,60 @@
+body{
+    background-color: #bdb8b86c;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#image{
+    max-width: 100%;
+    height: auto;
+}
+
+#img-div{
+    background-color: #fff;
+    padding-bottom: 1px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+#title{
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+#title, p{
+    text-align: center;
+}
+
+#img-caption{
+    margin-bottom: 40px;
+    padding-top: 10px;
+}
+
+#wikipedia{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+#wikipedia a{
+    color: rgb(37, 37, 136);
+}
+
+ul{
+    margin: 0 auto;
+    width: 50%;
+}
+
+li{
+    margin-bottom: 1em;
+    font-size: 20px;
+}

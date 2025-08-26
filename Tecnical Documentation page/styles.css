@@ -1,0 +1,107 @@
+*{
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+#title{
+    padding-left: 10px;
+    font-size: 30px;
+    border-bottom: 2px solid #000;
+}
+
+#main-doc{
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 20px;
+}
+
+#navbar ul li{
+    list-style: none;
+    line-height: 6em;
+    border-bottom: 2px solid #000;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: #808080;
+    transition: 1s;
+}
+
+#navbar ul li a:hover{
+    color: #000;
+    background: #808080;
+    padding: 10px;
+    
+}
+
+#navbar ul{
+    padding: 0;
+}
+
+#navbar{
+    border-right: 2px solid #000;
+    position: fixed;
+    left: 0;
+    height: 100%;
+    margin-top: 10px;
+}
+
+header{
+    font-weight: 600;
+    font-size: 2em;
+}
+
+a{
+    color: rgb(38, 38, 160);
+}
+
+@media (max-width: 700px) {
+  /* Adjust the body or container to handle the new layout */
+  body {
+    flex-direction: row; /* Ensure items are side-by-side if using flexbox */
+    display: flex; /* Or use flexbox on the container */
+  }
+
+  /* Styles for the navigation bar */
+  #navbar {
+    width: 25%; /* Reduce the navigation bar width */
+    min-width: 150px; /* Set a minimum width to prevent content from getting too squished */
+    position: fixed; /* Keep it fixed on the left */
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow-y: auto; /* Add vertical scrolling if links exceed height */
+    box-sizing: border-box; /* Include padding in the width calculation */
+    height: 100%;
+    padding: 0;
+    margin-top: 10px;
+
+  }
+
+#navbar ul li{
+    line-height: 2em;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+#navbar ul{
+    padding: 0;
+}
+
+#title{
+    font-size: 15px;
+}
+
+  /* Styles for the main content section */
+  #main-doc {
+    width: 70%; /* The main content takes up the remaining space */
+    margin-left: 40%; /* Shift the main content to the right to clear the fixed nav */
+    padding: 1rem;
+    box-sizing: border-box;
+    font-size: 10px;
+  }
+}
