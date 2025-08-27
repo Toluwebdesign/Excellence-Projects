@@ -99,3 +99,12 @@ button:hover span{
 button:hover{
     border: none;
 }
+
+footer{
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}

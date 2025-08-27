@@ -53,26 +53,24 @@ body {
     margin-top: 25px;
 }
 /* FOOTER*/
-footer {
-    font-size: 14px;
+footer{
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+    margin-top: 40px;
 }
-a {
-    color: black;
+
+footer a{
+    color: #00bcf2;
+    text-decoration: none;
 }
-a:visited {
-    color: black;
+
+footer a:hover{
+    text-decoration: underline;
 }
-/*hover is when the mouse hovers them.*/
-a:hover {
-    color:brown;
-}
-/*it is active when it is being clicked.*/
-a:active {
-    color: white;
-}
-.address {
-    margin-bottom: 5px;
-}
+
 img {
     display: block;
     margin: auto;

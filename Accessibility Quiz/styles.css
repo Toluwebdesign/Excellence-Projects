@@ -11,11 +11,10 @@ body {
   margin: 0;
 }
 
-#logo{
-    width: max(10rem, 18vw);
-    background-color: #0a0a23;
-    aspect-ratio: 35 / 4;
-    padding: 0.4rem;
+.logo{
+    color: #dfdfe2;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
 }
 
 header{
@@ -163,16 +162,19 @@ button{
 }
 
 footer{
-    background-color: #2a2a40;
-    display: flex;
-    justify-content: center;
-}
-
-footer, footer a{
-    color: #dfdfe2;
-}
-
-address{
+    background-color: #222;
+    color: #fff;
     text-align: center;
-    padding: 5px;
+    padding: 15px 0;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
+
+footer a{
+    color: #00bcf2;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }

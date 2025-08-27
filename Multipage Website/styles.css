@@ -139,6 +139,15 @@ nav .fa{
   display: none;
 }
 
+footer{
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
+
 @media(max-width: 700px){
   .text-box h1{
     font-size: 20px;
@@ -182,7 +191,7 @@ h1{
   font-weight: 600;
 }
 
-p{
+p:not(footer p){
   color: #777;
   font-size: 14px;
   font-weight: 300;
@@ -275,23 +284,24 @@ h3{
 
 /*facilities*/
 .facilities{
-  width: 80%;
+  width: 100%;
   margin: auto;
   text-align: center;
   padding-top: 100px;
 }
 
 .facilities-col{
-  flex-basis: 31%;
   border-radius: 10px;
   margin: 5%;
   margin-top: 10px;
-  text-align: left;
+  text-align: center;
+  display: block;
 }
 
 .facilities-col img{
   border-radius: 10px;
-  width: 200px;
+  width: 100%;
+  display: inline;
 }
 
 .facilities-col p{
@@ -301,7 +311,7 @@ h3{
 .facilities-col h3{
   margin-top: 16px;
   margin-bottom: 15px;
-  text-align: left;
+  text-align: center;
 }
 
 /*tetimonials*/
