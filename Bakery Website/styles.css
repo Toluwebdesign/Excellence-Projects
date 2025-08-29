@@ -20,7 +20,7 @@ h1{
     margin-top: 0;
 }
 
-p{
+p:not(footer p){
     color: #fff;
     font-size: 50px;
     text-align: center;
@@ -77,11 +77,18 @@ button:hover{
 }
 
 
-.blog h2{
+.body h2{
     text-align: center;
     color: #f78606;
     font-size: 40px;
     font-weight: 600;
+    margin-top: 40px;
+}
+
+#blog{
+    margin-top: 100px;
+    background-color: #fffdd0;
+    padding-bottom: 20px;
 }
 
 #cards:hover {
@@ -114,7 +121,164 @@ button:hover{
     border-radius: 100px;
     width: 70px;
 }
-img{
+
+.line{
     width: 90px;
     margin-left: 40px;
+}
+
+.specials{
+    margin-top: 100px;
+    background-color: #fff4e6;
+    padding-bottom: 30px;
+}
+
+.specials h2{
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+#special-cards{
+    box-shadow: 0 10px 10px rgb(233, 133, 122);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 12px;
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+#special-cards:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(240, 47, 33, 0.15);
+}
+
+.treats{
+    font-size: 20px;
+    color: #000;
+}
+
+#special-cards p{
+    font-size: 20px;
+    color: #000;
+    font-weight: 800;
+}
+
+#specials h3{
+    color: #f78606;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.special-card1{
+    background-image: url(cake.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.special-card2{
+    background-image: url(tart.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.special-card3{
+    background-image: url(caramel.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.special-card4{
+    background-image: url(velvet.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.swirl{
+    margin-left: 300px;
+    width: 800px;
+    margin-top: 10px;
+}
+
+.about-sec{
+    display: flex;
+}
+
+.about h2{
+    margin-top: 150px;
+}
+
+.about h3{
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+}
+
+#about img{
+    width: 50%;
+}
+
+#about p{
+    color: #4b2e2e;
+    font-size: 25px;
+}
+
+.about-us{
+    background-color: #fff8f0;
+    width: 50%;
+    padding: 10px;
+}
+
+.divider{
+    width: 80%;
+    border-top: 2px dashed #d9a273;
+    margin: 40px auto;
+}
+
+footer{
+    background-color: #4b2e2e;
+    color: #fff8f0;
+    padding: 20px;
+    padding-left: 100px;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+.links{
+    float: right;
+    right: 200px;
+    bottom: 100px;
+    position: relative;
+    
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: #fff8f0;
+    transition: 1s;
+}
+
+.links ul li{
+    list-style: none;
+    line-height: 2em;
+}
+
+.links ul li a:hover{
+    color: #f78606;
+}
+
+.icons a{
+    color: #f78606;
+    padding-left: 20px;
+}
+
+.icons a:hover{
+    color: #d9a273;
+}
+
+.header h2{
+    color: #f78606;
+    padding-top: 20px;
+    margin-left: 30px;
 }
