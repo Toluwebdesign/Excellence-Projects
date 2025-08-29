@@ -108,3 +108,27 @@ footer{
     font-size: 0.9rem;
     margin-top: 40px;
 }
+
+@media(max-width: 700px){
+    h1{
+        font-size: 20px;
+    }
+    body{
+        font-size: 10px;
+    }
+    
+    .content h2{
+        font-size: 20px;
+    }
+    button{
+        width: 50%;
+    }
+    .navbar ul li{
+        display: inline;
+        line-height: 20px;
+        transition: 1s;
+    }
+    .navbar ul li::after{
+        background: none;
+    }
+}

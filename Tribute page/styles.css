@@ -76,3 +76,24 @@ footer a{
 footer a:hover{
     text-decoration: underline;
 }
+
+@media(max-width: 700px){
+     ul {
+    margin: 0;        /* remove auto-centering */
+    padding: 0 10px;  /* add a little spacing from the edges */
+    width: 100%;      /* make it take full width */
+    text-align: left; /* align text to the left */
+  }
+
+  ul li {
+    margin-left: 15px; /* indent a bit for readability */
+  }
+    #wikipedia{
+        font-size: 20px;
+    }
+    footer{
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+}

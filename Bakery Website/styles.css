@@ -1,0 +1,116 @@
+span{
+    color: #f78606;
+}
+
+.header{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(bakery.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100%;
+}
+
+h1{
+    color: #fff;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+p{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+}
+
+img{
+    color: #fff;
+}
+
+.nav ul li{
+    list-style: none;
+    display: inline;
+    padding-left: 50px;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav ul li a:hover{
+    color: #f78606;
+    cursor: pointer;
+}
+
+.nav ul{
+    text-align: center;
+    padding-top: 60px;
+}
+
+button{
+    margin-left: 600px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+button a{
+    text-decoration: none;
+    color: #000;
+}
+
+button a:hover{
+    color: #fff;
+}
+
+button:hover{
+    background-color: #f78606;
+}
+
+
+.blog h2{
+    text-align: center;
+    color: #f78606;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#cards:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(74,44,42,0.15);
+}
+
+#cards h3 {
+  color: #f78606; 
+}
+
+#cards p {
+  color: #4a2c2a;
+  font-size: 20px;
+}
+
+#cards{
+    background: bisque; /* clean and readable */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(74,44,42,0.1); /* warm shadow */
+    padding: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin: 0 150px;
+}
+
+#cards img{
+    border-radius: 100px;
+    width: 70px;
+}
