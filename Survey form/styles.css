@@ -28,9 +28,17 @@ p{
     display: block;
 }
 
+.input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
 legend{
     display: inline-block;
 }
+
+
 
 form{
     margin: 5px auto;

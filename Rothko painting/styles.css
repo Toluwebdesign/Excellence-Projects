@@ -65,3 +65,29 @@ footer a{
 footer a:hover{
     text-decoration: underline;
 }
+
+@media(max-width: 700px){
+    .frame{
+        border: solid black 20px;
+        width: 300px;
+        padding: 20px;
+    }
+    .canvas{
+        width: 300px;
+        height: 400px;
+    }
+    .one{
+        width: 250px;
+        height: 90px;
+        margin: 10px auto;
+    }
+    .two{
+        width: 280px;
+        height: 120px;
+        margin: 0 auto 10px;
+    }
+    .three{
+        height: 25%;
+        width: 90%;
+    }
+}
