@@ -103,6 +103,16 @@ nav ul li a:hover {
   margin-right: 60px;
 }
 
+.trending-movies img, .new-releases img, .top-rated img {
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.trending-movies img:hover, .new-releases img:hover, .top-rated img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+}
+
 @media(max-width: 700px) {
   nav {
     flex-direction: column;
