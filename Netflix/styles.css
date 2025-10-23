@@ -1,0 +1,135 @@
+body {
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  color: white;
+  background-color: black;
+}
+
+nav {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-left: 80px;
+}
+
+nav ul li a {
+  color: red;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  font-size: 30px;
+  color: red;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.sign-in {
+  margin-left: auto;
+  margin-right: 50px;
+  padding: 8px 16px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.email-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.email-form input {
+  padding: 10px;
+  width: 400px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.email-form input:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px red;
+}
+
+.email-form button {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.trending-now, .new-releases, .top-rated {
+  margin-left: 200px;
+  margin-top: 200px;
+}
+
+.trending-movies img, .new-releases img, .top-rated img {
+  width: 100px;
+  margin-right: 10px;
+  border-radius: 8px;
+  margin-right: 60px;
+}
+
+@media(max-width: 700px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+  }
+  nav ul {
+    margin-left: 0;
+    width: 300px;
+  }
+  nav ul li a {
+    font-size: 10px;
+  }
+  .sign-in {
+    margin: 0 auto;
+  }
+  .hero h1 {
+    font-size: 30px;
+  }
+  .email-form input {
+    width: 100px;
+  }
+  .trending-now, .new-releases, .top-rated {
+    margin-left: 20px;
+    margin-top: 100px;
+  }
+  .trending-movies img, .new-releases img, .top-rated img {
+    width: 50px;
+    margin-right: 10px;
+  }
+}
