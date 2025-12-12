@@ -227,4 +227,17 @@ nav ul li a:hover {
     width: 50px;
     margin-right: 10px;
   }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    margin-bottom: 10px;
+  }
+
+  .benefits-grid {
+    grid-template-columns: 1fr; /* 1 column */
+  }
 }
