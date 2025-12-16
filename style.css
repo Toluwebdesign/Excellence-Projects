@@ -100,7 +100,7 @@ nav ul li a:hover {
   border-radius: 50%;
   object-fit: cover;
   border: 5px solid #fff;
-   float: right;     /* makes image go right */
+  float: right;     /* makes image go right */
   margin-left: 20px; /* space between text and image */
   margin-bottom: 20px;
 }
@@ -282,6 +282,7 @@ nav ul li a:hover {
 
 .top-projects {
   text-align: center;
+  font-size: 30px;
 }
 
 .portfolio-text {
@@ -633,6 +634,10 @@ form textarea {
     width: 90%;
     font-size: 18px;
     margin-left: 10px;
+  }
+
+  .get-in-touch2 {
+    margin-left: 100px;
   }
 
   .intro h2 {
