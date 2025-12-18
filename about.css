@@ -1,6 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #000;
+  overflow-x: hidden;
 }
 
 header {
@@ -157,12 +162,13 @@ nav ul li a:hover {
   font-size: 15px;
   color: #1E90FF;
   background-color: #e2e0e0;
-  width: 100px ;
+  width: 130px;
   padding: 10px;
   border-radius: 10px;
   margin: 0 auto;
   display: flex;
   margin-bottom: 0;
+  white-space: nowrap;
 }
 
 .daily-stack img {
@@ -422,4 +428,278 @@ form textarea {
 .copyright {
   margin-left: 40px;
   margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+
+  /* GENERAL */
+  nav {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  nav ul {
+    margin-right: 170px;
+  }
+
+  /* HEADER */
+  .about-tolu {
+    font-size: 80px;
+  }
+
+  .copyright {
+    float: right;
+    margin-right: 30px;
+  }
+
+  .star {
+    font-size: 70px;
+  }
+
+  .intro-text {
+    position: static;
+    margin-left: 40px;
+    width: 80%;
+    height: 60px;
+  }
+
+  /* BUILDING WITH PURPOSE */
+  .building {
+    flex-direction: column;
+  }
+
+  .building-text {
+    margin-left: 20px;
+    width: 90%;
+    font-size: 35px;
+  }
+
+  .get-in-touch {
+    margin-left: 20px;
+  }
+
+  .web-design,
+  .front-end,
+  .UI {
+    flex-direction: column;
+    margin-left: 80px;
+  }
+
+  .web-design p,
+  .front-end p,
+  .UI p {
+    margin-left: 0;
+    width: 90%;
+  }
+
+  .building-line {
+    width: 80%;
+    margin-right: 65px;
+  }
+
+  /* FAVOURITE TOOLS */
+  .favourite-tools {
+    font-size: 60px;
+  }
+
+  .join-me {
+    margin-left: 260px;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .card {
+    width: 45%;
+  }
+
+  /* CONTACT SECTION */
+  .contact-section {
+    flex-direction: column;
+  }
+
+  .contact-me,
+  .contact-form {
+    max-width: 100%;
+  }
+
+  .contact-form {
+    margin-top: 40px;
+  }
+
+  form input,
+  form textarea {
+    width: 250%;
+  }
+
+  /* CONNECT SECTION */
+  .connect {
+    padding-bottom: 80px;
+  }
+
+  .connect-up {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .connect-text {
+    width: 90%;
+  }
+
+  .links {
+    margin-left: 260px;
+    margin-top: 0;
+  }
+
+  .connect-middle {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .flower {
+    width: 90%;
+    margin-left: 30px;
+  }
+
+  .links-line {
+    width: 70%;
+    margin-right: 270px;
+  }
+
+  .line {
+    width: 90%;
+  }
+
+  .contact-button {
+    margin-bottom: 0;
+  }
+
+  .connect-name {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  /* HEADER */
+  header {
+    padding-bottom: 20px;
+  }
+  .logo {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: 110px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  nav ul li {
+    margin-left: 10px;
+  }
+
+  nav ul li a {
+    white-space: nowrap;
+  }
+
+  .copyright {
+    margin-top: 0;
+  }
+
+  .about-tolu {
+    font-size: 90px;
+  }
+
+  .star {
+    font-size: 80px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .intro-text {
+    margin-top: 0;
+    font-size: 14px;
+    width: 100%;
+    margin-left: 5px;
+  }
+
+  /* BUILDING TEXT */
+  .building-text {
+    font-size: 26px;
+  }
+
+  .web-design, .front-end, .UI {
+    margin-left: 15px;
+  }
+
+  /* BUTTONS */
+  form input, form textarea {
+    width: 118%;
+  }
+  .get-in-touch,
+  .join-me,
+  .contact-button {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  /* CARDS */
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  /* CONTACT */
+  .contact-me h3 {
+    font-size: 40px;
+  }
+
+  /* CONNECT */
+  .connect {
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 10px;
+  }
+  
+  .connect-up {
+    margin-left: 0;
+  }
+  
+  .connect-with-me {
+    font-size: 35px;
+    margin-left: 5px;
+  }
+
+  .connect-name {
+    font-size: 40px;
+    margin-left: 0;
+  }
+
+  .email {
+    font-size: 20px;
+    margin-left: 3px;
+  }
+
+  .links-line {
+    width: 90%;
+  }
+
+  .links {
+    margin-left: 20px;
+  }
+
+  .flower{
+    height: auto;
+    margin-left: 10px;
+  }
 }
